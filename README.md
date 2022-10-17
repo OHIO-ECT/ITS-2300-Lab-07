@@ -54,7 +54,7 @@
 
 ```
 set nat source rule 100 outbound-interface <OUTBOUND_INTEFACE>
-set nat source rule 100 source address <INTERNAL_IP_NET>``
+set nat source rule 100 source address <INTERNAL_IP_NET>
 set nat source rule 100 translation address masquerade
 ```
 
