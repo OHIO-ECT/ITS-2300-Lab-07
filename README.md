@@ -72,7 +72,14 @@ set nat source rule 100 translation address masquerade
 
 15. From on VyOS-1 on a NON-config prompt type `show nat source rules` 
 
-16. From VPCS-1 ping 8.8.8.8 and then QUICKLY on VyOS-1 type `show nat source translations` and then `show nat destination translations` in a NON-config prompt. Might be needful to try this a few times to get the needed info.
+16. From VPCS-1 ping 8.8.8.8 and then QUICKLY on VyOS-1 type:
+ `show nat source translations` 
+
+and then:
+
+`show nat destination translations` in a NON-config prompt.
+
+Might be needful to try this a few times to get the needed info.
 
 17. From VPCS-1 ping 8.8.8.8 and then QUICKLY on VyOS-1 type `show nat source statistics` in a NON-config prompt. Might be needful to try this a few times to get the needed info.
 
