@@ -70,6 +70,12 @@ set nat source rule 100 translation address masquerade
 
 14. Filter for `icmp` and save packets with "Export Specified Packets" on each packet capture for later processing.
 
+15. From on VyOS-1 on a NON-config prompt type `show nat source rules` 
+
+16. From VPCS-1 ping 8.8.8.8 and then QUICKLY on VyOS-1 type `show nat source translations` in a NON-config prompt. Might be needful to try this a few times to get the needed info.
+
+17. From VPCS-1 ping 8.8.8.8 and then QUICKLY on VyOS-1 type `show nat source statistics` in a NON-config prompt. Might be needful to try this a few times to get the needed info.
+
 ### Lab Questions
 
 1.  Using your preferred tool, draw a network diagram of the resulting network, including connections, port numbers, DHCP pools, and addresses.
