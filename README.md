@@ -31,7 +31,7 @@
 
 3.  Deploy following GNS3 project but connect to the "PublicNet".
 
-![](images/lab7-1.png)
+![](lab7-1.png)
 
 4.  Apply the VyOS configuration developed in the earlier task
 
