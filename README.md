@@ -48,7 +48,7 @@
 ### Task 3 - Network Address Translation
 
 8.  Start a packet capture on the connection between VyOS and the WAN cloud.
-9.  Ping a reliable IP address from VPCS-1.
+9.  Ping a reliable IP address from VPCS-1.  (The ping will fail, but you will see traffic in the packet capture)
 10. Filter for `icmp` and save packets with "Export Specified Packets" for later processing.
 11. Using the following template to configure NAT on the VyOS router.
 
